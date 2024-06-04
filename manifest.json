@@ -1,0 +1,19 @@
+{
+  "author": "maxim.iloi",
+  "content_scripts": [
+    {
+      "js": ["scripts/st-parts.js"],
+      "matches": ["*://*.st-parts.ru/search/*"]
+    }
+  ],
+  "description": "Добавляет ссылку на поиск запчасти у партнеров",
+  "homepage_url": "https://github.com/maximiloi/chrome-st-parts",
+  "icons": {
+    "64": "icons/auto.png",
+    "128": "icons/auto-128.png"
+  },
+  "manifest_version": 3,
+  "name": "Chrome-ST-PARTS",
+  "permissions": ["scripting", "activeTab"],
+  "version": "2024.02.13"
+}
