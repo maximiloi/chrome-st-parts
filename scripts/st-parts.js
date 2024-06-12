@@ -10,10 +10,21 @@ function createLink(titleEl, linkData) {
 }
 
 const linkData = [
-  { name: 'Armtek', url: 'https://armtek.ru/search?text=' },
-  { name: 'Ixora', url: 'https://ixora-auto.ru/catalog-article?article=' },
-  { name: 'AllAutoParts', url: 'https://allautoparts.ru/' },
-  { name: 'Rossko', url: 'https://rossko.ru/search/?text=&q=&t=d' },
+  { name: 'Itrade', url: 'https://itrade.forum-auto.ru/shop/index.html' },
+  { name: 'The-parts', url: 'https://the-parts.ru/?action=search&code=' },
+  { name: 'Armtek', url: 'https://etp.armtek.ru/search' },
+  {
+    name: 'Ixora',
+    url: 'https://b2b.ixora-auto.ru/Shop/Search.html?DetailNumber=',
+  },
+  {
+    name: 'AllAutoParts',
+    url: 'https://allautoparts.ru/asp-x/Search/SearchPage.aspx',
+  },
+  {
+    name: 'Rossko',
+    url: 'https://spb.rossko.ru/product?sid=df1a53bf3760fe9291cbd034fa6616fc&q=',
+  },
   { name: 'ПартКом', url: 'https://www.part-kom.ru/new/#/search/0/0/0/' },
   { name: 'G', url: 'https://www.google.com/search?q=', marginLeft: '1rem' },
 ];
@@ -31,4 +42,4 @@ setTimeout(function () {
   } else {
     alert('Перезагрузите страницу, F5');
   }
-}, 3000);
+}, 6000);
